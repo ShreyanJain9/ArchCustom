@@ -1,7 +1,7 @@
 # ArchTitus Installer Script
 [![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-<img src="https://i.imgur.com/YiNMnan.png" />
+
 
 This README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)
 
@@ -18,13 +18,14 @@ From initial Prompt type the following commands:
 
 ```
 pacman -Sy git
-git clone https://github.com/ChrisTitusTech/ArchTitus
-cd ArchTitus
+git clone https://github.com/ShreyanJain9/ArchCustom
+cd ArchCustom
 ./archtitus.sh
 ```
 
 ### System Description
-This is completely automated arch install. It includes prompts to select your desired desktop environment, window manager, AUR helper, and whether to do a full or minimal install. The KDE desktop environment on arch includes all the packages I use on a daily basis, as well as some customizations.
+
+
 
 ## Troubleshooting
 
@@ -52,13 +53,7 @@ After unblocking the WiFi, you can connect to it. Go through these 5 steps:
 
 ## Reporting Issues
 
-An issue is easier to resolve if it contains a few important pieces of information.
-1. Chosen configuration from /configs/setup.conf (DONT INCLUDE PASSWORDS)
-1. Errors seen in .log files
-1. What commit/branch you used
-1. Where you were installing (VMWare, Virtualbox, Virt-Manager, Baremetal, etc)
-    1. If a VM, what was the configuration used.
+This is just for my personal use in order to get some systems mass setup with a custom DE. 
 ## Credits
 
-- Original packages script was a post install cleanup script called ArchMatic located here: https://github.com/rickellis/ArchMatic
-- Thank you to all the folks that helped during the creation from YouTube Chat! Here are all those Livestreams showing the creation: <https://www.youtube.com/watch?v=IkMCtkDIhe8&list=PLc7fktTRMBowNaBTsDHlL6X3P3ViX3tYg>
+Based on ArchTitus
